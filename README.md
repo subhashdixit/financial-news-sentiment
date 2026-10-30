@@ -1,5 +1,7 @@
 # Financial News Lens
 
+**Live application:** [Open Financial News Sentiment](https://financial-news-sentiment-xr65.onrender.com) · [Source code](https://github.com/subhashdixit/financial-news-sentiment)
+
 An end-to-end **weakly supervised text-classification learning app**, with a Flask interface, JSON API, CSV batch analysis, measured evaluation and CI/CD.
 
 Paste a headline and optional description. Compare a learned TF-IDF classifier with the VADER rule-based system that supplied its training labels. The interface makes that distinction visible, rather than presenting automated-label agreement as human sentiment accuracy.
