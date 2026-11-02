@@ -325,3 +325,14 @@ Check readiness, a real prediction and hosting errors separately. A healthy serv
 - [Flask deployment on Render](https://render.com/docs/deploy-flask)
 
 VADER is MIT-licensed; publisher articles and existing source datasets have separate rights. Repository code licensing does not confer ownership of third-party text.
+
+## Exact local dependency versions
+
+[DEPENDENCIES.md](DEPENDENCIES.md) lists the pinned runtime, development and training environments. `requirements.txt` now explicitly records all external runtime package versions, including transitive dependencies.
+
+```bash
+python3.11 -m venv .venv
+# Activate: source .venv/bin/activate (Windows: .venv\Scripts\activate)
+python -m pip install -r requirements.txt
+python -m pip check
+```

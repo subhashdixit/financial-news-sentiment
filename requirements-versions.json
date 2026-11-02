@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "repository": "financial-news-sentiment",
+  "recommended_python": "3.11.11",
+  "resolver": "uv==0.13.6",
+  "files": [
+    {
+      "path": "requirements-dev.in",
+      "sha256": "f9c5dfa95578159677f4df7c664e23a5bae51cf8bd8409e96746a3d3a72cd95e"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "2749780cc31a17ce5d252d3555b387b4e6044cc0cc9e1e96c366f01b7eb08dc7"
+    },
+    {
+      "path": "requirements.in",
+      "sha256": "91ed8c759c103e1b54a9b56482940ab86f5ccbe83dcf1c135758259562a91e2f"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "97ecd9b4ef69205839728adfac6feca7e0db07ea7f20557a8534602fe0feb1f2"
+    }
+  ]
+}
